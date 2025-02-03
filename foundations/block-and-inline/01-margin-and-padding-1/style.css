@@ -1,28 +1,19 @@
-body {
-  max-width: 600px;
-  margin: 0 auto;
+.one,.three{
+    padding: 32px;
+}
+.one{
+    background-color: pink;
+    border: 1px solid blue;
+    margin-bottom: 12px;
+}
+.two{
+    background-color: rgb(60, 73, 127);
+    border: 1px solid pink;
+    margin-bottom: 48px;
 }
 
-.one {
-  background: pink;
-  border: 3px solid blue;
-  /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
-}
-
-.two {
-  background: lightblue;
-  border: 3px solid purple;
-  /* CHANGE ME */
-  margin-bottom: 0px;
-}
-
-.three {
-  background: peachpuff;
-  border: 3px solid brown;
-  width: 200px;
-  /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+.three{
+    background-color:rgb(202, 182, 146);
+    border: 2px solid orange;
+    margin-left:10em;
 }
